@@ -10,12 +10,21 @@
     
     .title {
         position: absolute;
-        left: 2em;
+        left: 15%;
         top: 25%;
         transform: translateY(-50%);
         font-size: 4em;
-        width: 40%;
+        width: 60%;
         color: rgb(255, 255, 255);
+    }
+    
+    .subtitle {
+        position: absolute;
+        left: 15%;
+        top: 33%;
+        font-size: 35px;
+        width: 60%;
+        color: white;
     }
     
     a {
@@ -25,4 +34,38 @@
     
     a-hover {
         color: black;
+    }
+    
+    .fast {
+        background: linear-gradient(-45deg, #00d9ff, #c42eff, #9900ff, #00d9ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .btn-grad {
+        background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%)
+    }
+    
+    .btn-grad {
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        font-size: 20px;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        border-radius: 10px;
+        display: block;
+        border: none;
+        cursor: pointer;
+        font-weight: 300%;
+        position: absolute;
+        top: 43%;
+        left: 14.5%;
+    }
+    
+    .btn-grad:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
     }
