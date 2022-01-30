@@ -23,4 +23,6 @@
         text-decoration: none;
     }
     
-    a-hover{}
+    a-hover{
+        color:black;
+    }
