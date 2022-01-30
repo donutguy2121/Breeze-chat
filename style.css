@@ -11,7 +11,7 @@
     .title {
         position: absolute;
         left: 2em;
-        top: 45%;
+        top: 25%;
         transform: translateY(-50%);
         font-size: 4em;
         width: 40%;
@@ -23,6 +23,6 @@
         text-decoration: none;
     }
     
-    a-hover{
-        color:black;
+    a-hover {
+        color: black;
     }
